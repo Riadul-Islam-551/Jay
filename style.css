@@ -19,28 +19,104 @@
   justify-content: center;
   align-items: flex-start;
 }
-.upper_nav .upper_nav_contacts{
-    width: 70%;
-    height: 100%;
-    text-align: left;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
+.upper_nav .upper_nav_contacts {
+  width: 70%;
+  height: 100%;
+  text-align: left;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
 }
-.upper_nav .upper_nav_contacts .mail{
-    display: flex;
+.upper_nav .upper_nav_contacts .mail {
+  display: flex;
 }
-.upper_nav .upper_nav_contacts .call_me{
-    display: flex;
+.upper_nav .upper_nav_contacts .call_me {
+  display: flex;
 }
-.upper_nav .upper_nav_contacts p{
-    margin: 13px 0px;
+.upper_nav .upper_nav_contacts p {
+  margin: 13px 0px;
 }
-.upper_nav .upper_nav_logo{
-    width: 30%;
-    text-align: right;
-    padding: 0px 20px;
+.upper_nav .upper_nav_logo {
+  width: 30%;
+  text-align: right;
+  padding: 0px 20px;
 }
-.upper_nav_icon{
-    margin:13px;
+.upper_nav_icon {
+  margin: 13px;
+}
+
+/* nav................... */
+nav {
+  height: 80px;
+  background-color: rgb(248, 248, 248);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav .nav_logo {
+  font-size: 2.2rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  color: rgb(14, 168, 61);
+  padding: 10px;
+  cursor: pointer;
+  width: 10%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+nav .nav_links {
+  width: 70%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+nav .nav_links ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  margin: 0px 170px 0px 370px;
+}
+nav .nav_links ul a {
+  text-decoration: none;
+  color: rgb(80, 79, 79);
+  font-size: 0.9rem;
+  font-weight: 600;
+  font-family: sans-serif;
+}
+nav .nav_links ul a li {
+  background-color: rgb(235, 236, 236);
+  padding: 10px;
+  margin: 20px 64px;
+  border-radius: 20px;
+}
+nav .nav_links ul a li:hover {
+  background-color: rgb(219, 219, 219);
+  transition-duration: 0.3s;
+}
+nav .nav_icon {
+  width: 20%;
+  display: flex;
+  justify-content: flex-end;
+  padding: 0px 60px;
+}
+nav .nav_icon .search {
+  margin: 10px;
+  padding: 10px;
+  font-size: 1.3rem;
+  color: rgb(53, 53, 53);
+  cursor: pointer;
+  position: relative;
+}
+nav .nav_icon .search p {
+  position: absolute;
+  font-size: 0.7rem;
+  background-color: rgb(233, 233, 233);
+  padding: 5px 7px;
+  border-radius: 50px;
+  margin-left: 15px;
+  margin-top: -10px;
+  font-weight: bold;
+  font-family: sans-serif;
 }
