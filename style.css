@@ -353,3 +353,37 @@ nav .nav_icon .search p {
   font-weight: 400;
   color: rgb(109, 109, 109);
 }
+/* footer............... */
+footer{
+  height: 450px;
+  width: 100%;
+  background-color: rgb(34, 39, 44);
+  color: rgb(183, 183, 184);
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+}
+footer .row{
+  height: 210px;
+  width: 250px;
+  margin: 60px;
+}
+footer .row:hover h1{
+  transition-duration: 1s;
+  text-decoration: underline green;
+}
+footer .row h1{
+  font-weight: 400;
+  font-size: 1.4rem;
+  margin: 0px 0px 20px 0px;
+}
+footer .row .footer_logo{
+  color: green;
+}
+footer .row p{
+font-size: .8rem;
+line-height: 1.3rem;
+}
+footer .row .footer_icon{
+  color: white;
+}
