@@ -315,6 +315,7 @@ nav .nav_icon .search p {
 .about_pro .pro_bottom .product:hover {
   background-color: rgb(238, 238, 238);
   transition-duration: .3s;
+  box-shadow: 5px 5px 5px rgb(207, 207, 207);
 }
 .about_pro .pro_bottom .product img {
   width: 230px;
