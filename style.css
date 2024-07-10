@@ -261,6 +261,94 @@ nav .nav_icon .search p {
   cursor: pointer;
 }
 .shop .shop_bottom .content button:hover {
-  transition-duration: .2s;
+  transition-duration: 0.2s;
   background-color: rgb(8, 199, 8);
+}
+/* about_product.............. */
+.about_pro {
+  width: 100%;
+  height: 670px;
+  background: rgb(189, 249, 251);
+  background: radial-gradient(
+    circle,
+    rgb(219, 247, 248) 0%,
+    rgba(240, 242, 245, 1) 100%
+  );
+}
+.about_pro .pro_top {
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.about_pro .pro_top h1 {
+  font-weight: 400;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 2.3rem;
+  line-height: 60px;
+  color: rgb(82, 82, 82);
+}
+.about_pro .pro_top p {
+  width: 500px;
+  font-family: sans-serif;
+  font-size: 0.9rem;
+  line-height: 20px;
+  color: rgb(109, 109, 109);
+  text-align: center;
+  line-height: 27px;
+  width: 100%;
+}
+.about_pro .pro_bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.about_pro .pro_bottom .product {
+  height: 400px;
+  width: 230px;
+  margin: 30px 47px;
+  background-color: rgb(245, 245, 245);
+  border-radius: 17px;
+  box-shadow: 10px 10px 10px rgb(207, 207, 207);
+}
+.about_pro .pro_bottom .product:hover {
+  background-color: rgb(238, 238, 238);
+  transition-duration: .3s;
+}
+.about_pro .pro_bottom .product img {
+  width: 230px;
+  height: 155px;
+}
+.about_pro .pro_bottom .product .star_icon {
+  color: rgb(214, 214, 0);
+  display: flex;
+  margin: 10px;
+}
+.about_pro .pro_bottom .product .star_icon .rating {
+  color: rgb(187, 187, 187);
+}
+.about_pro .pro_bottom .product .star_icon p {
+  color: rgb(97, 97, 97);
+  margin-left: 65px;
+}
+.about_pro .pro_bottom .product .details h6 {
+  margin: 10px;
+  font-family: sans-serif;
+  font-size: 1rem;
+}
+.about_pro .pro_bottom .product .details p {
+  font-family: sans-serif;
+  font-size: 0.8rem;
+  line-height: 16px;
+  color: rgb(109, 109, 109);
+  margin: 10px;
+  text-align: justify;
+}
+.about_pro .pro_bottom .product .details h5 {
+  margin: 20px 10px;
+  font-family: sans-serif;
+  font-size: 0.9rem;
+  font-weight: 400;
+  color: rgb(109, 109, 109);
 }
