@@ -205,12 +205,20 @@ nav .nav_icon .search p {
   line-height: 40px;
   color: rgb(82, 82, 82);
 }
-.hero .m_hero .m_hero_left p {
+.hero .m_hero .m_hero_left .mainP {
   width: 500px;
   font-family: sans-serif;
   font-size: 0.9rem;
   line-height: 20px;
   color: rgb(109, 109, 109);
+}
+.hero .m_hero .m_hero_left .responsive{
+  width: 500px;
+  font-family: sans-serif;
+  font-size: 0.9rem;
+  line-height: 20px;
+  color: rgb(109, 109, 109);
+  display: none;
 }
 .hero .m_hero .m_hero_left p span {
   font-weight: 600;
@@ -616,5 +624,80 @@ nav .nav_icon .search .menu {
 .side_bar ul li:hover {
   transition-duration: 0.3s;
   background-color: rgb(175, 175, 175);
+}
+
+/* hero section................... */
+.hero {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(162, 158, 158);
+  background: radial-gradient(
+    circle,
+    rgb(192, 191, 191) 0%,
+    rgba(242, 242, 242, 1) 100%
+  );
+}
+.hero .hero_icon {
+  margin: 0px;
+  font-size: 1rem;
+  font-weight: 900;
+  color: green;
+  opacity: 0.7;
+  cursor: pointer;
+}
+.hero .hero_icon:hover {
+  color: green;
+  opacity: 0.6;
+  transition-duration: 0.3s;
+}
+.hero .m_hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 88%;
+  padding: 0px 0px;
+}
+.hero .m_hero .m_hero_left {
+  width: 300px;
+  height: 200px;
+}
+.hero .m_hero .m_hero_left h1 {
+  font-weight: 400;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1.5rem;
+  line-height: 50px;
+  color: rgb(82, 82, 82);
+}
+.hero .m_hero .m_hero_left h5 {
+  font-family: sans-serif;
+  font-size: 1rem;
+  line-height: 30px;
+  color: rgb(82, 82, 82);
+  margin: 0px 10px;
+}
+.hero .m_hero .m_hero_left .mainP {
+display: none;
+}
+.hero .m_hero .m_hero_left .responsive {
+  width: 250px;
+  font-family: sans-serif;
+  font-size: 0.8rem;
+  line-height: 20px;
+  color: rgb(109, 109, 109);
+  text-align: justify;
+  display: block;
+  margin: 0px 10px;
+}
+.hero .m_hero .m_hero_left p span {
+  font-weight: 600;
+  color: rgb(110, 110, 110);
+}
+.hero .m_hero .m_hero_right img {
+  width: 200px;
+  background: transparent;
 }
 }
