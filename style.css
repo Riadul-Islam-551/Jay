@@ -565,16 +565,16 @@ nav .nav_icon {
 nav .nav_icon .search {
   margin: 5px;
   padding: 5px;
-  font-size: .8rem;
+  font-size: .7rem;
 }
 nav .nav_icon .search p {
   position: absolute;
   font-size: 0.4rem;
   background-color: rgb(233, 233, 233);
-  padding: 3px 5px;
+  padding: 2px 4px;
   border-radius: 50px;
   margin-left: 7px;
-  margin-top: -10px;
+  margin-top: -7px;
   font-weight: bold;
   font-family: sans-serif;
 }
@@ -610,8 +610,8 @@ nav .nav_icon .search .menu {
   text-decoration: none;
   color: rgb(77, 77, 77);
   font-family: sans-serif;
-  font-size: .8rem;
-  font-weight: 600;
+  font-size: .7rem;
+  font-weight: 900;
 }
 .side_bar ul li:hover {
   transition-duration: 0.3s;
