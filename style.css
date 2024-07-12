@@ -586,7 +586,7 @@ nav bar............... */
     font-family: sans-serif;
   }
   nav .nav_icon .search .menu {
-    display: none;
+    display: block;
   }
   /* side_bar......... */
   .side_bar {
@@ -982,5 +982,120 @@ nav bar............... */
   }
   .upper_nav_icon {
     margin: 15px 5px;
+  }
+  
+  /* 
+
+nav bar............... */
+nav {
+  height: 40px;
+  position: relative;
+}
+nav .nav_logo {
+  font-size: 1.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  color: rgb(14, 168, 61);
+  padding: 10px;
+  cursor: pointer;
+  width: 20%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+nav .nav_links {
+  width: 70%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  display: none;
+}
+nav .nav_links ul {
+  display: flex;
+  justify-content: center;
+  margin: 0px 170px 0px 370px;
+}
+nav .nav_links ul li {
+  color: rgb(80, 79, 79);
+  font-size: 0.9rem;
+  font-weight: 600;
+  font-family: sans-serif;
+  list-style-type: none;
+}
+nav .nav_links ul li a {
+  color: rgb(68, 68, 68);
+  text-decoration: none;
+  background-color: rgb(235, 236, 236);
+  padding: 10px;
+  margin: 20px 64px;
+  border-radius: 20px;
+}
+nav .nav_links ul li a:hover {
+  background-color: rgb(219, 219, 219);
+  transition-duration: 0.3s;
+}
+nav .nav_icon {
+  width: 80%;
+  display: flex;
+  justify-content: flex-end;
+  padding: 0px 0px;
+}
+nav .nav_icon .search {
+  margin: 5px;
+  padding: 5px;
+  font-size: 0.8rem;
+}
+nav .nav_icon .search p {
+  position: absolute;
+  font-size: 0.5rem;
+  background-color: rgb(233, 233, 233);
+  padding: 2px 4px;
+  border-radius: 50px;
+  margin-left: 7px;
+  margin-top: -7px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+nav .nav_icon .search .menu {
+  display: block;
+  margin-left: 5px;
+}
+
+  /* side_bar......... */
+  .side_bar {
+    width: 200px;
+    background-color: rgb(241, 241, 241);
+    margin-top: 267px;
+    border-radius: 7px;
+    display: none;
+    position: absolute;
+    margin-left: 285px;
+  }
+  .side_bar ul .x_mark {
+    font-size: 1rem;
+    color: rgb(77, 77, 77);
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  .side_bar ul li {
+    list-style-type: none;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(197, 197, 197);
+    border-radius: 20px;
+  }
+  .side_bar ul li a {
+    text-decoration: none;
+    color: rgb(77, 77, 77);
+    font-family: sans-serif;
+    font-size: 0.7rem;
+    font-weight: 900;
+  }
+  .side_bar ul li:hover {
+    transition-duration: 0.3s;
+    background-color: rgb(175, 175, 175);
   }
 }
